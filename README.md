@@ -33,4 +33,4 @@ If you are using a PC, the easiest way to use the bioinformatics tools described
 You can install VirtualBox from https://www.virtualbox.org/ and then download and install the latest version of Ubuntu from https://www.ubuntu.com/download/desktop  
 After installing Ubuntu inside a virtual machine, please install all other software as described above.
 
-Once you installed all the packages as described above, you can launch the Jupyter app by typing `jupyter notebook` in the terminal (see detailed instructions here: https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html). Inside the Jupyter app, navigate to the folder where you have downloaded a copy of this GitHub repo, and launch the provided Jupyter notebooks.
+Once you have installed all the packages as described above, you can launch the Jupyter app by typing `jupyter notebook` in the terminal (see detailed instructions here: https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html). Inside the Jupyter app, navigate to the folder where you have downloaded a copy of this GitHub repo, and launch the provided Jupyter notebooks.
