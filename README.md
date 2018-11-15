@@ -1,15 +1,17 @@
-# Workshop - Argentina 2018
-To code along with me, please download this repo and install Anaconda (https://www.anaconda.com/download/) and R (https://cloud.r-project.org/).
+# Workshop - Argentina, November 2018
+To code along with me, you will need to install a few required bioinformatics packages on your computer. Unfortunately, these packages cannot run directly in Windows, so it is recommended to use a Mac or a linux computer.
 
-After installing Anaconda and R, you will need to install a few extra packages. Please follow the following steps:
- 
-1. Install Bash kernel for Jupyter notebooks. Open a terminal and run:
+If you are using a Mac or a linux computer, please download this repo and install Anaconda (https://www.anaconda.com/download/) and R (https://cloud.r-project.org/).
+
+After installing Anaconda and R, you will need to install a few extra packages. Please follow these steps:
+
+1. Install a Bash kernel for Jupyter notebooks. Open a terminal and run:
 ```
 pip install bash_kernel
 python -m bash_kernel.install
 ```
  
-2. Install R kernel for Jupiter notebooks. Open R in the terminal (type: R <return>) and run:
+2. Install an R kernel for Jupiter notebooks. Open R in the terminal (type: R <return>) and run:
 ```r
 install.packages('devtools')
 devtools::install_github('IRkernel/IRkernel')
@@ -26,3 +28,7 @@ brew install bowtie2
 brew install wget
 brew install tree
 ```
+
+If you are using a PC, the easiest way to use the bioinformatics tools described in this workshop is to install a linux virtual machine.  
+You can install VirtualBox from https://www.virtualbox.org/ and then download and install the latest version of Ubuntu from https://www.ubuntu.com/download/desktop  
+After installing Ubuntu inside a virtual machine, please install all other software as described above.
