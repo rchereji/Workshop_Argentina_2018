@@ -1,4 +1,4 @@
-To download the raw sequencing reads (fastq files from GEO database, accession number SRR3649298) necessary for this workshop, please install `sratoolkit`,
+To download the raw sequencing reads necessary for this workshop (fastq files from GEO database, accession number SRR3649298), please install `sratoolkit`,
 ```
 brew install sratoolkit
 ```
