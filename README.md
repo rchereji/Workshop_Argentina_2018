@@ -11,13 +11,13 @@ pip install bash_kernel
 python -m bash_kernel.install
 ```
  
-2. Install an R kernel for Jupiter notebooks. Open R in the terminal (type: R <return>) and run:
+2. Install an R kernel for Jupiter notebooks. Open R in the terminal (type R and hit return) and run:
 ```r
 install.packages('devtools')
 devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec(name = 'ir35', displayname = 'R 3.5')
 ```
-Note: These commands should be run in the terminal, nor in the R GUI or RStudio.
+Note: These commands should be run in the terminal, not in the R GUI or RStudio - in which case you may get an error message.
  
 3. Install a few extra command line tools (samtools, bowtie2, etc.). Run the following commands in the terminal:
 ```
